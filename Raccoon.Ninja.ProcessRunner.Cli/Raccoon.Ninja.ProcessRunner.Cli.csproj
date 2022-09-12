@@ -29,4 +29,11 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="..\readme.md">
+        <Link>readme.md</Link>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

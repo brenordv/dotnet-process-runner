@@ -37,7 +37,7 @@ jobs:
           release_name="ProcessRunner-$tag-${{ matrix.target }}"
 
           # Build everything
-          dotnet publish Raccoon.Ninja.ProcessRunner.Cli/Raccoon.Ninja.ProcessRunner.Cli.csproj --framework net6.0 --runtime "${{ matrix.target }}" -c Release -o "$release_name"
+          dotnet publish Raccoon.Ninja.ProcessRunner.Cli/Raccoon.Ninja.ProcessRunner.Cli.csproj --framework net6.0 --runtime "${{ matrix.target }}" --self-contained -c Release -o "$release_name"
 
           # Pack files
           if [ "${{ matrix.target }}" == "win-x64" ]; then
