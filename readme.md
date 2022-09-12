@@ -25,7 +25,7 @@ I know that there's other ways to do this, but I wanted to create this, so... he
 			"path": "c:\\path\\to\\file.exe", // Path to the application that will be executed.
 			"arguments": "PROC-01", // Arguments used while running application pointed in path property.
 			"captureOutput": true, // (Optional. Default: false)If true, will capture the application's output to a log file.
-			"changeWorkingDir": "c:\\some\other\\path" // (Optional. Default: null) If informed, ProcessRunner will change the current directory to this one before running the program informed in the path property.
+			"changeWorkingDir": "c:\\some\\other\\path" // (Optional. Default: null) If informed, ProcessRunner will change the current directory to this one before running the program informed in the path property.
 		}
 	]
 }
