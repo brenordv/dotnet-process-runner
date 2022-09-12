@@ -1,0 +1,30 @@
+﻿{
+  "delayBetweenChecks": 1000,
+  "processes": [
+    {
+      "name":"Proc 1",
+      "path": "Z:\\dev\\projects\\ProcessRunner\\Raccoon.Ninja.ProcessRunner.Mock.Cli\\bin\\Debug\\net6.0\\Raccoon.Ninja.ProcessRunner.Mock.Cli.exe",
+      "arguments": "PROC-01",
+      "captureOutput": true
+    },
+    {
+      "name":"Proc 2",
+      "path": "Z:\\dev\\projects\\ProcessRunner\\Raccoon.Ninja.ProcessRunner.Mock.Cli\\bin\\Debug\\net6.0\\Raccoon.Ninja.ProcessRunner.Mock.Cli.exe",
+      "arguments": "PROC-02",
+      "captureOutput": false
+    },
+    {
+      "name":"Proc 3",
+      "path": "dotnet",
+      "arguments": "run",
+      "captureOutput": true,
+      "changeWorkingDirTo": "Z:\\dev\\projects\\ProcessRunner\\Raccoon.Ninja.ProcessRunner.Mock.Cli"
+    },
+    {
+      "name":"Proc 4",
+      "path": "Z:\\dev\\projects\\ProcessRunner\\Raccoon.Ninja.ProcessRunner.Mock.Cli\\bin\\Debug\\net6.0\\Raccoon.Ninja.ProcessRunner.Mock.Cli.exe",
+      "arguments": "PROC-01",
+      "captureOutput": true
+    }
+  ]
+}

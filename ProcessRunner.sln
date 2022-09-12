@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.ProcessRunner.Cli", "Raccoon.Ninja.ProcessRunner.Cli\Raccoon.Ninja.ProcessRunner.Cli.csproj", "{D2DE774C-ADE6-479B-B026-E48E30A41645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.ProcessRunner.Mock.Cli", "Raccoon.Ninja.ProcessRunner.Mock.Cli\Raccoon.Ninja.ProcessRunner.Mock.Cli.csproj", "{4B55F7DA-E3E5-477F-A64A-0C1CB758E300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.ProcessRunner.Core", "Raccoon.Ninja.ProcessRunner.Core\Raccoon.Ninja.ProcessRunner.Core.csproj", "{68642822-A96D-4461-BF33-90FFF2C0D0F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2DE774C-ADE6-479B-B026-E48E30A41645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DE774C-ADE6-479B-B026-E48E30A41645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DE774C-ADE6-479B-B026-E48E30A41645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DE774C-ADE6-479B-B026-E48E30A41645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B55F7DA-E3E5-477F-A64A-0C1CB758E300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B55F7DA-E3E5-477F-A64A-0C1CB758E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B55F7DA-E3E5-477F-A64A-0C1CB758E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B55F7DA-E3E5-477F-A64A-0C1CB758E300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68642822-A96D-4461-BF33-90FFF2C0D0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68642822-A96D-4461-BF33-90FFF2C0D0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68642822-A96D-4461-BF33-90FFF2C0D0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68642822-A96D-4461-BF33-90FFF2C0D0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
